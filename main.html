@@ -1,16 +1,44 @@
-<!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+<style>
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 16px;
+  color: gray;
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<div class="card">
+  <img src="product.jpg" alt="Product Image">
+  <h1>Product Name</h1>
+  <p>$99.99</p>
+  <p>This is a brief description of the product or service.</p>
+  <button>Buy Now</button>
+</div>
 </body>
-
 </html>
